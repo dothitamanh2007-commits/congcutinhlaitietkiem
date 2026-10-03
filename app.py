@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("💰 Ứng dụng Tính Lãi Gửi Tiết Kiệm")
+st.title("💰 Ứng dụng Tính Lãi Gửi Tiết Kiệm _ ĐỖ THỊ TÂM ANH ")
 st.write("Nhập thông tin khoản tiền gửi bên dưới để tính toán chi tiết tiền lãi định kỳ, tổng tiền lãi và tổng số tiền nhận được.")
 
 # Form nhập liệu
