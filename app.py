@@ -96,7 +96,7 @@ if submitted:
         for i in range(1, term_months + 1):
             data.append({
                 "Kỳ hạn": f"Tháng {i}",
-                "Tiền lãi nhận được (VNĐ)": f"{periodic_interest:,.0f}",
+                "Tiền lãi nhận được 💥 (VNĐ)": f"{periodic_interest:,.0f}",
                 "Số dư gốc (VNĐ)": f"{principal:,.0f}"
             })
         df = pd.DataFrame(data)
@@ -109,14 +109,14 @@ if submitted:
         for i in range(1, num_quarters + 1):
             data.append({
                 "Kỳ hạn": f"Quý {i}",
-                "Tiền lãi nhận được (VNĐ)": f"{periodic_interest:,.0f}",
+                "Tiền lãi nhận được 🌻 (VNĐ)": f"{periodic_interest:,.0f}",
                 "Số dư gốc (VNĐ)": f"{principal:,.0f}"
             })
         if remainder_months > 0:
             rem_interest = principal * (annual_rate / 100) * (remainder_months / 12)
             data.append({
                 "Kỳ hạn": f"Tháng lẻ cuối ({remainder_months} tháng)",
-                "Tiền lãi nhận được (VNĐ)": f"{rem_interest:,.0f}",
+                "Tiền lãi nhận được ❤️‍🩹 (VNĐ)": f"{rem_interest:,.0f}",
                 "Số dư gốc (VNĐ)": f"{principal:,.0f}"
             })
         df = pd.DataFrame(data)
